@@ -1,0 +1,17 @@
+#hello{ 
+    border: 10px solid black;
+    border-color: green red yellow blue;
+    border-style: solid;
+    color:violet;
+    border-width: 10px 11px 12px 5px;
+    border-style: double;
+    border-radius: 0px 150px;
+    
+    
+}
+h1{
+padding:0px 1px 0px 40px;
+}
+body{
+    background-color: rgb(3, 22, 82);
+}

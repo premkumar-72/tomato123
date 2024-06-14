@@ -1,0 +1,21 @@
+p{
+    background-color: aqua;
+    background-image:url(demon.jpg);
+    background-position: right px ;
+
+}
+body{
+    background-color:aqua;
+    border-radius: 0 150px;
+    display:flex;
+}
+p{
+    border: 2 solid black;
+    border-top: 10px;
+    border-width: 10px 5px;
+}
+body h1{
+    border: 2px solid black;
+    border-color: blue green red yellow;
+    border-style: double;
+}

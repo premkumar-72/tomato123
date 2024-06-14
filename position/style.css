@@ -1,0 +1,75 @@
+.section1{
+    border: 2px solid red;
+    height: 500px ;
+    background-color: red;
+
+}
+.container1{
+    border: 2px solid blue;
+    height: 60px ;
+    width: 60px;
+    background-color: blue;
+    margin-top: 300px;
+}
+
+.section2 .hi2{
+    height: 50px;
+    background-color: green;
+
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 h1{
+    font-size:150px;
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+@keyframes heart {
+    from{
+        font-size: 100px;
+
+    }to{
+font-size: 200px;
+    }
+    
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4 h1{
+    font-size: 100px;
+    border: 10px solid green;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 0.001s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: linear;
+    border-top: 40px solid yellow;
+    border-bottom: 40px solid rgb(2, 188, 42);
+    border-left: 40px solid rgb(224, 8, 8);
+    border-right: 40px solid rgb(224, 11, 171);
+
+}
+
+@keyframes circle {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}

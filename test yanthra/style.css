@@ -1,0 +1,61 @@
+ 
+.firstcontainer{
+    border: 2px solid green;
+    height: 150px;
+    display: flex;
+    justify-content:   center;
+    align-items: center;
+
+}
+.secondcontainer{
+    border: 2px solid red;
+    width: 90%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    border: 2px solid yellow;
+    width: 20%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items{
+    border: 2px solid red;
+    width: 70%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.button{
+    border:2px solid green;
+    height: inherit;
+    width: 10%;
+}
+
+
+.items ul {
+    border: 2px solid gray;
+    display: flex;
+    gap: 30px;
+
+}
+.items ul li{
+  list-style: none;
+}
+
+.items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: darkblue;
+}
+
+
+

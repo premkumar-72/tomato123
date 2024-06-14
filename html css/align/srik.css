@@ -1,0 +1,14 @@
+section{
+    border:3px solid yellow;
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div{
+    background-color: white;
+    width: 20px;
+    height: 30px;
+}
